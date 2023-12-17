@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Library | Loom</title>
+  <link rel="stylesheet" href="LibraryLoom.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+  
+ 
+
+  <div class="container mt-5">
+    <!-- Button to trigger the modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      Get started with Loom
+    </button>
+    <p>Click above button to get modal</p>
+
+    <!-- Modal -->
+    <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Get started checklist<i class="fas fa-chevron-down cFas " ></i></h5>
+            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"> -->
+              <!-- <span aria-hidden="true">&times;</span> -->
+              
+            <!-- </button> -->
+
+            <div class=" progressContainer">
+              <div class="progressbars roundEdgeLeft"></div>
+              <div class="progressbars"></div>
+              <div class="progressbars"></div>
+              <div class="progressbars"></div>
+              <div class="progressbars"></div>
+              <div class="progressFade roundEdge"></div>
+  
+            </div>
+          </div>
+          
+
+
+          <div class="modal-body">
+            <div id="accordion">
+
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed d-flex" style="align-items: center;justify-content: flex-start;" data-toggle="collapse" data-target="#collapseOne"
+                      aria-expanded="false" aria-controls="collapseOne">
+                      <input class="m-1 my-checkbox " type="checkbox" > Create Account<i class="fas fa-chevron-down ml-5" ></i>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    Create Account
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed d-flex" style="align-items: center;justify-content: flex-start;" data-toggle="collapse" data-target="#collapseTwo"
+                      aria-expanded="false" aria-controls="collapseTwo">
+                      <input class="m-1 my-checkbox" type="checkbox" > Download Loom<i class="fas fa-chevron-down ml-5"></i>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    Install the Chrome extention to record  from your browser and to unlock integration like Gmail and Jira.
+                    <button class="btn mt-3" style="color:black; font-weight:700; border-radius: 200px; border: 1px solid grey;" > <i style="color: black;" class=" mr-1 fab fa-chrome"></i>Install Chrome Extension</button>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed d-flex" style="align-items: center;justify-content: flex-start;" data-toggle="collapse" data-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">
+                      <input class="m-1 my-checkbox" type="checkbox" >Record a video<i class="fas fa-chevron-down ml-5"></i>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    Record a short video to share with your teammate. Try introducing yourself or replacing a meeting.
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed d-flex" style="align-items: center;justify-content: flex-start;" data-toggle="collapse" data-target="#collapseFour"
+                        aria-expanded="false" aria-controls="collapseFour">
+                        <input class="m-1 my-checkbox" type="checkbox" >Share your video<i class="fas fa-chevron-down ml-5"></i>
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                      Now its time to get some views.Try sharing your last video.
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" id="headingFive">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed d-flex" style="align-items: center;justify-content: flex-start;" data-toggle="collapse" data-target="#collapseFive"
+                          aria-expanded="false" aria-controls="collapseFive">
+                          <input class="m-1 my-checkbox" type="checkbox" >Get a view<i class="fas fa-chevron-down ml-5"></i>
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                      <div class="card-body">
+                        Slack, message or email your viewers to remain them about your Loom.
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="card-header" id="headingSix">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed d-flex" style="align-items: center;justify-content: flex-start;" data-toggle="collapse" data-target="#collapseSix"
+                            aria-expanded="false" aria-controls="collapseSix">
+                            <input class="m-1 my-checkbox" type="checkbox" >Invite  teammate<i class="fas fa-chevron-down ml-5"></i>
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                        <div class="card-body">
+                          Invite your team to collaborate and share videos more easily.
+                        </div>
+                      </div>
+
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

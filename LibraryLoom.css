@@ -1,0 +1,127 @@
+body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+  input[type="checkbox"] {
+    width:18px;
+    height: 18px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid black;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer  
+  }
+  
+  input[type="checkbox"]:checked {
+    appearance: auto;
+    clip-path: circle(50% at 50% 50%);
+    background-color: rgba(95, 233, 102, 0.61) !important;
+  }
+  
+    .card{
+      border: none !important;
+      overflow-y:hidden !important ;
+    }
+  .card-header:first-child{
+    border-radius: 0;
+  }
+  .card-header{
+    border: none !important;
+    background-color:rgba(0,0,0,0) !important;
+    padding: 0 !important;
+  }
+    .modal{
+      width: 30%;
+      overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+  
+    .modal-header{
+      background: #d5fffd;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+    }
+  a:link, a:visited {
+    color: black !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+  }
+  
+  a:hover{
+    text-decoration: none;
+  }
+  
+  .btn{padding: 5px !important;
+  width: 300px !important;}
+  
+  .btn-link{
+  color: black !important;
+  text-decoration: none !important;
+  }
+  
+  .btn:focus{outline:0}
+  .btn-link:hover{
+    text-decoration: none !important;
+  }
+  
+  .btn:focus{
+    box-shadow: none !important;
+  }
+  button:focus {outline:0;}
+  
+  .fas{
+    position: absolute;
+    left:80%;
+  }
+  
+  .cFas{
+    position: absolute;
+    left:42% !important;
+    top:25px;
+  }
+  
+  #accordion{
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .modal-body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .my-checkbox:checked
+  {
+    accent-color: rgb(173, 255, 134) !important;
+  }
+  
+  
+  .progressbars{
+    width: 60px;
+    height: 8px;
+    margin: 0 2px;
+    background-color: rgb(48, 211, 240);
+  }
+  .progressContainer{
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
+  
+  .roundEdge{
+    border-radius: 0 50px 50px 0;
+  }
+  .roundEdgeLeft{
+    border-radius: 50px 0 0 50px ;
+  }
+  
+  .progressFade{
+    width: 60px;
+    height: 8px;
+    background-color: rgb(182 244 255);
+    margin-left: 2px;
+  
+  }
